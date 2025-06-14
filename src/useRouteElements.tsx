@@ -1,6 +1,7 @@
-import { Outlet, useRoutes } from "react-router-dom";
-import { path } from "./constants/path";
-import MainLayout from "./layouts";
+import { Outlet, useRoutes } from 'react-router-dom';
+import { path } from './constants/path';
+import MainLayout from './layouts';
+import ProductList from './components/sites/home/product-list';
 
 const ProtectedRoute = () => {
   return <Outlet />;
@@ -12,16 +13,16 @@ const RejectedRoute = () => {
 const useRouteElements = () => {
   const routeElement = useRoutes([
     {
-      path: "",
+      path: '',
       index: true,
       element: (
         <MainLayout>
-          <h1>Trang chủ</h1>
+          <ProductList />
         </MainLayout>
-      ),
+      )
     },
     {
-      path: "",
+      path: '',
       element: <ProtectedRoute />,
       children: [
         {
@@ -30,7 +31,7 @@ const useRouteElements = () => {
             <MainLayout>
               <h1>Thông tin cá nhân</h1>
             </MainLayout>
-          ),
+          )
         },
         {
           path: path.cart,
@@ -38,12 +39,12 @@ const useRouteElements = () => {
             <MainLayout>
               <h1>Giỏ hàng</h1>
             </MainLayout>
-          ),
-        },
-      ],
+          )
+        }
+      ]
     },
     {
-      path: "",
+      path: '',
       element: <RejectedRoute />,
       children: [
         {
@@ -52,7 +53,7 @@ const useRouteElements = () => {
             <MainLayout>
               <h1>Đăng ký</h1>
             </MainLayout>
-          ),
+          )
         },
         {
           path: path.login,
@@ -60,9 +61,9 @@ const useRouteElements = () => {
             <MainLayout>
               <h1>Đăng nhập</h1>
             </MainLayout>
-          ),
-        },
-      ],
+          )
+        }
+      ]
     },
     {
       path: path.productDetail,
@@ -71,8 +72,8 @@ const useRouteElements = () => {
         <MainLayout>
           <h1>Chi tiết sản phẩm</h1>
         </MainLayout>
-      ),
-    },
+      )
+    }
   ]);
 
   return routeElement;

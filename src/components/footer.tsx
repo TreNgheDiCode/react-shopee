@@ -10,45 +10,45 @@ const Footer = () => {
         <div className="grid grid-cols-12 gap-6 mb-5">
           <div className="col-span-3">
             <p className="text-sm font-semibold text-gray-600">
-              CUSTOMER SERVICE
+              DỊCH VỤ KHÁCH HÀNG
             </p>
-            <p className="mt-4 text-sm text-gray-600">Help Centre</p>
-            <p className="mt-2 text-sm text-gray-600">How To Buy</p>
-            <p className="mt-2 text-sm text-gray-600">How To Sell </p>
-            <p className="mt-2 text-sm text-gray-600">Payment Methods</p>
-            <p className="mt-2 text-sm text-gray-600">Shopee Coins</p>
-            <p className="mt-2 text-sm text-gray-600">Shopee Guarantee </p>
-            <p className="mt-2 text-sm text-gray-600">Return & Refund</p>
-            <p className="mt-2 text-sm text-gray-600"> Shopee Mall</p>
-            <p className="mt-2 text-sm text-gray-600">Return & Refund</p>
-            <p className="mt-2 text-sm text-gray-600"> Contact Us</p>
+            <p className="mt-4 text-sm text-gray-600">Trung tâm chăm sóc khách hàng</p>
+            <p className="mt-2 text-sm text-gray-600">Cách mua hàng</p>
+            <p className="mt-2 text-sm text-gray-600">Cách bán hàng</p>
+            <p className="mt-2 text-sm text-gray-600">Phương thức thanh toán</p>
+            <p className="mt-2 text-sm text-gray-600">Đồng Shopee</p>
+            <p className="mt-2 text-sm text-gray-600">Shopee Đảm Bảo</p>
+            <p className="mt-2 text-sm text-gray-600">Trả hàng & Hoàn tiền</p>
+            <p className="mt-2 text-sm text-gray-600">Shopee Mall</p>
+            <p className="mt-2 text-sm text-gray-600">Trả hàng & Hoàn tiền</p>
+            <p className="mt-2 text-sm text-gray-600">Liên hệ chúng tôi</p>
           </div>
           <div className="col-span-3">
-            <p className="text-sm font-semibold text-gray-600">ABOUT SHOPEE</p>
-            <p className="mt-4 text-sm text-gray-600">About Us</p>
-            <p className="mt-2 text-sm text-gray-600">Shopee Careers</p>
-            <p className="mt-2 text-sm text-gray-600">Shopee Policies </p>
-            <p className="mt-2 text-sm text-gray-600">Privacy Policy</p>
-            <p className="mt-2 text-sm text-gray-600">Shopee Blog</p>
-            <p className="mt-2 text-sm text-gray-600">Shopee Mall </p>
-            <p className="mt-2 text-sm text-gray-600">Seller Centre</p>
-            <p className="mt-2 text-sm text-gray-600"> Flash Deals</p>
-            <p className="mt-2 text-sm text-gray-600">Media Contact</p>
-            <p className="mt-2 text-sm text-gray-600"> Shopee Seller</p>
+            <p className="text-sm font-semibold text-gray-600">VỀ SHOPEE</p>
+            <p className="mt-4 text-sm text-gray-600">Giới thiệu về Shopee</p>
+            <p className="mt-2 text-sm text-gray-600">Tuyển dụng Shopee</p>
+            <p className="mt-2 text-sm text-gray-600">Chính sách Shopee</p>
+            <p className="mt-2 text-sm text-gray-600">Chính sách bảo mật</p>
+            <p className="mt-2 text-sm text-gray-600">Blog Shopee</p>
+            <p className="mt-2 text-sm text-gray-600">Shopee Mall</p>
+            <p className="mt-2 text-sm text-gray-600">Trung tâm người bán</p>
+            <p className="mt-2 text-sm text-gray-600">Ưu đãi chớp nhoáng</p>
+            <p className="mt-2 text-sm text-gray-600">Liên hệ truyền thông</p>
+            <p className="mt-2 text-sm text-gray-600">Shopee Seller</p>
           </div>
           <div className="col-span-3">
-            <p className="text-sm font-semibold text-gray-600">FOLLOW US</p>
+            <p className="text-sm font-semibold text-gray-600">THEO DÕI CHÚNG TÔI</p>
             <div className="mt-4 text-sm text-gray-600 flex">
               <div className="mr-1">
                 <img src={facebook} alt="facebook" width={18} height={18} />
               </div>
-              <span> Facebook</span>
+              <span>Facebook</span>
             </div>
             <div className="mt-2 text-sm text-gray-600 flex">
               <div className="mr-1">
                 <img src={instagram} alt="instagram" width={18} height={18} />
               </div>
-              <span> Instagram</span>
+              <span>Instagram</span>
             </div>
             <div className="mt-2 text-sm text-gray-600 flex">
               <div className="mr-1">
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-3">
-            <p className="text-sm font-semibold text-gray-600">PAYMENT</p>
+            <p className="text-sm font-semibold text-gray-600">THANH TOÁN</p>
             <div className="flex gap-2">
               <div className="bg-white w-14 h-7 p-1 rounded mt-4 shadow shadow-blue-100 ">
                 <img
@@ -91,7 +91,7 @@ const Footer = () => {
                 />
               </div>
             </div>
-            <p className="text-sm font-semibold text-gray-600 mt-4">LOGISTIC</p>
+            <p className="text-sm font-semibold text-gray-600 mt-4">ĐƠN VỊ VẬN CHUYỂN</p>
             <div className="flex flex-wrap gap-2">
               <div className="bg-white w-14 h-7 p-1 rounded mt-4 shadow shadow-blue-100 ">
                 <img
@@ -147,29 +147,29 @@ const Footer = () => {
         <hr />
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 text-sm text-gray-600 mt-10">
           <div className="lg:col-span-1">
-            <div>© 2023 Shopee. All Rights Reserved.</div>
+            <div>© 2025 Shopee. Bảo lưu mọi quyền.</div>
           </div>
           <div className="lg:col-span-2">
             <div>
-              Country & Region: Singapore | Indonesia | Taiwan | Thailand|
-              Malaysia | Vietnam | Philippines | Germany | Chile | Japan | China
+              Quốc gia & Khu vực: Singapore | Indonesia | Đài Loan | Thái Lan |
+              Malaysia | Việt Nam | Philippines | Đức | Chile | Nhật Bản | Trung Quốc
             </div>
           </div>
         </div>
         <div className="text-center text-sm text-gray-600 mt-10">
-          <p>Shopee Company Limited</p>
+          <p>Công ty TNHH Shopee</p>
           <p className="mt-6">
-            Address: 4th floor, Capital Place Building, 29 Bukit Street, Tengah
-            City, Phone: 19001221 - Email: customer@support.shopee.vn
+            Địa chỉ: Tầng 4, Tòa nhà Capital Place, 29 đường Bukit, Thành phố Tengah,
+            Điện thoại: 19001221 - Email: customer@support.shopee.vn
           </p>
           <p className="mt-2">
-            Person in charge of information management: Thomas Smith
+            Người chịu trách nhiệm quản lý thông tin: Thomas Smith
           </p>
           <p className="mt-2">
-            Business Registration Certificate No: 0106773786
+            Số giấy chứng nhận đăng ký kinh doanh: 0106773786
           </p>
           <p className="mt-2">
-            © 2023 - Copyright belongs to Shopee Company Limited
+            © 2025 - Bản quyền thuộc về Công ty TNHH Shopee
           </p>
         </div>
       </div>
