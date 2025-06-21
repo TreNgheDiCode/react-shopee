@@ -2,10 +2,10 @@ import useQueryConfig from '../../../hooks/useQueryConfig';
 import { mockCategories } from '../../../lib/mocks/mock-categories';
 import { mockProducts } from '../../../lib/mocks/mock-products';
 import AsideFilter from './aside-filters';
-import img3 from 'src/assets/slider/img3.jpg';
-import img4 from 'src/assets/slider/img4.jpg';
 import ImageCarousel from './image-carousel';
 import Product from './product';
+import img3 from 'src/assets/slider/img3.jpg';
+import img4 from 'src/assets/slider/img4.png';
 
 const ProductList = () => {
   const queryParams = useQueryConfig();

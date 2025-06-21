@@ -104,7 +104,7 @@ const AsideFilter = ({ queryConfig, categories }: Props) => {
                     <polygon points='4 3.5 0 0 0 7' />
                   </svg>
                 )}
-                (item.name)
+                {item.name}
               </Link>
             </li>
           );

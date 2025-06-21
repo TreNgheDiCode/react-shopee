@@ -1,7 +1,7 @@
 import { Outlet, useRoutes } from 'react-router-dom';
+import ProductList from './components/sites/home/product-list';
 import { path } from './constants/path';
 import MainLayout from './layouts';
-import ProductList from './components/sites/home/product-list';
 
 const ProtectedRoute = () => {
   return <Outlet />;
